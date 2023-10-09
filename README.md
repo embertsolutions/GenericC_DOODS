@@ -48,8 +48,8 @@ POST
 # To Build
 Git Clone/Unpack/cmake/build/enjoy....<br>
 
-git clone https://github.com/RichardPar/JetsonCUDA_DOODS.git <br>
-cd JetsonCUDA_DOODS<br>
+git clone https://https://github.com/embertsolutions/GenericC_DOODS.git <br>
+cd GenericC_DOODS<br>
 mkdir build<br>
 cd build<br>
 cmake ../<br>
