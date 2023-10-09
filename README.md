@@ -1,4 +1,4 @@
-# JetsonCUDA_DOODS
+# GenericC_DOODS
 
 an RPC that Mimics the DOODS RPC method of getting inference data. This is a Proof of Concept<br>
 Based on this AWESOME project<br>
@@ -25,11 +25,12 @@ rapidjson<br>
 https://github.com/Tencent/rapidjson/<br>
 
 pistache<br> 
-http://pistache.io/quickstart<br>
+https://github.com/pistacheio/pistache<br>
 
-Pistache gave me grief... so the CMAKE command line I used was (disabled tests, docs and examples)
 ```
-cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DPISTACHE_BUILD_EXAMPLES=false -DPISTACHE_BUILD_TESTS=false -DPISTACHE_BUILD_DOCS=false    -DPISTACHE_USE_SSL=true ../
+$ sudo add-apt-repository ppa:pistache+team/unstable
+$ sudo apt update
+$ sudo apt install libpistache-dev
 ```
 
 
